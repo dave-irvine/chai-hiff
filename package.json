@@ -4,7 +4,10 @@
   "description": "HTML matching assertions for Chai.js.",
   "main": "chai-hiff.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prepublish": "npm test && git diff --exit-code --quiet",
+    "preversion": "npm test && git diff --exit-code --quiet",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
