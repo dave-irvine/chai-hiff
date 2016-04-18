@@ -1,0 +1,29 @@
+{
+  "name": "chai-hiff",
+  "version": "0.0.1",
+  "description": "HTML matching assertions for Chai.js.",
+  "main": "chai-hiff.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dave-irvine/chai-hiff.git"
+  },
+  "keywords": [
+    "chai",
+    "hiff",
+    "html",
+    "diff"
+  ],
+  "author": "Dave Irvine <dave@daveirvine.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dave-irvine/chai-hiff/issues"
+  },
+  "homepage": "https://github.com/dave-irvine/chai-hiff",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "hiff": "^0.3.0"
+  }
+}
