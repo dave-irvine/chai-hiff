@@ -1,6 +1,8 @@
 Chai Hiff
 ==========
 
+[![Build Status](https://travis-ci.org/dave-irvine/chai-hiff.svg?branch=master)](https://travis-ci.org/dave-irvine/chai-hiff)
+
 HTML matching assertions for Chai.js.
 
 Installation
