@@ -4,11 +4,13 @@
   "description": "HTML matching assertions for Chai.js.",
   "main": "chai-hiff.js",
   "scripts": {
-    "test": "mocha",
-    "prepublish": "npm test && git diff --exit-code --quiet",
-    "preversion": "npm test && git diff --exit-code --quiet",
-    "postversion": "git push && git push --tags",
-    "lint": "eslint ."
+    "test": "run-p mocha lint",
+    "mocha": "mocha",
+    "lint": "eslint .",
+    "check-diff": "git diff --exit-code --quiet",
+    "prepublish": "run-p test check-diff",
+    "preversion": "run-p preversion",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -35,6 +37,7 @@
     "eslint": "^4.11.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "npm-run-all": "^4.1.2"
   }
 }
