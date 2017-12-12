@@ -13,8 +13,10 @@ npm i --save-dev chai-hiff
 ```
 
 ```javascript
-var chai = require('chai');
-chai.use(require('chai-hiff'));
+import chai from 'chai';
+import chaiHiff from 'chai-hiff';
+
+chai.use(chaiHiff);
 ```
 
 API
