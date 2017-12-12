@@ -27,3 +27,27 @@ Expect the `expected` to equal the `actual`.
 ```javascript
 expect('<html></html>').to.hiffEqual('<html></html>');
 ```
+
+### `.not.hiffEqual(expected)`
+
+Expect the `expected` to not equal the `actual`.
+
+```javascript
+expect('<html></html>').to.hiffEqual('<html></html>');
+```
+
+### `.hiff.equal(expected)`
+
+Expect the `expected` to equal the `actual`.
+
+```javascript
+expect('<html></html>').to.hiff.equal('<html></html>');
+```
+
+### `.not.hiff.equal(expected)`
+
+Expect the `expected` to not equal the `actual`.
+
+```javascript
+expect('<html></html>').to.not.hiff.equal('<html></html>');
+```
