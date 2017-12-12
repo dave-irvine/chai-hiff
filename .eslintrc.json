@@ -1,8 +1,5 @@
 {
     "extends": "airbnb-base/legacy",
-    "rules": {
-        "indent": ["error", 4]
-    },
     "overrides": [{
         "files": ["test/**"],
         "env": {
