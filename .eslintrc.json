@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb-base/legacy",
+    "rules": {
+        "indent": ["error", 4]
+    },
+    "overrides": [{
+        "files": ["test/**"],
+        "env": {
+            "mocha": true
+        },
+        "rules": {
+            "func-names": 0
+        }
+    }]
+}
