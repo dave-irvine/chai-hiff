@@ -1,8 +1,7 @@
-var colors = require('colors/safe');
 var hiff = require('hiff');
 
 function processChange(change) {
-  return colors.reset('\t') + 'In node ' + change.before.parentPath + ':\n\t' + change.message;
+  return 'In node ' + change.before.parentPath + ':\n\t' + change.message;
 }
 
 function obj(chaiContext) {

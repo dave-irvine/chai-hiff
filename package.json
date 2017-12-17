@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/dave-irvine/chai-hiff",
   "dependencies": {
-    "colors": "^1.1.2",
     "hiff": "^0.3.0"
   },
   "devDependencies": {
