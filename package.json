@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "check-diff": "git diff --exit-code --quiet",
     "prepublish": "run-p test check-diff",
-    "preversion": "run-p preversion",
     "postversion": "git push && git push --tags"
   },
   "repository": {
