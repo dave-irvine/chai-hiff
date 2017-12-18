@@ -1,6 +1,6 @@
 {
   "name": "chai-hiff",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "HTML matching assertions for Chai.js.",
   "main": "chai-hiff.js",
   "scripts": {
